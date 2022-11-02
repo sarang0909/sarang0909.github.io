@@ -13,6 +13,16 @@
 
 <body class="is-preload">
 
+	<div class="topnav">
+		<a class="active" href="#mlopen">Open Source</a>
+		<a href="#professional">Professional</a>
+		<a href="#skills">Skills</a>
+		<a href="#blog">Blogs</a>
+		<a href="#connect">Connect</a>
+	</div>
+
+
+
 	<!-- Wrapper -->
 	<div id="wrapper" class="divided">
 
@@ -20,23 +30,24 @@
 		<section
 			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 			<div class="content">
-				<img src="images/sarang_mete_photo_circle.png" alt="" />
+				<img src="images/sarang_mete_photo_circle.png" alt="" width="150" height="150" />
 				<h1>Sarang Mete</h1>
 
-				<p class="major">I am Senior Natural Langauge Processing Engineer. <br>
-					I can Build NLP Models,Create Inference Pipelines,Deploy Projects. <br>
-					I can also create text processing solutions using Non-Machine Learning methods.
+				<p class="major">Senior Natural Langauge Processing Engineer <br>
+					NLP Models|Inference Pipelines|Deployment <br>
+				</p>
+
 				<ul class="actions stacked">
 				</ul>
 			</div>
 			<div class="image">
-				<img src="images/banner.jpg" alt="" />
+				<img src="images/wordcloud.jpg" alt="" />
 			</div>
 		</section>
 
 
 		<!-- Six -->
-		<section class="wrapper style1 align-center">
+		<section id="mlopen" class="wrapper style1 align-center">
 			<div class="inner">
 				<h2>Machine Learning - Open Source(2017 - continue)</h2>
 				<p class="major">I've developed many open source projects on different topics like NLP,Deep
@@ -49,15 +60,15 @@
 			id="first">
 			<div class="content">
 				<h2>Custom Named Entity Recognition</h2>
-				<p> 1.Created production ready custom NER pipeline using different methods. <br>
-					2.Used doccano to annotate news data.<br>
-					3.Trained model using Spacy after converting data to Spacy format.<br>
-					4.Trained model using transformers trainer after converting data to BILOU format.<br>
-					5.Created production ready code for inference and deployment.<br>
-
-					<a href="https://github.com/sarang0909/custom_ner_api" class="icon brands style2 fa-github"></a>
-					<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
-				</p>
+				<ul>
+					<li>Created production ready custom NER pipeline using different methods.</li>
+					<li>Used doccano to annotate news data.</li>
+					<li>Trained model using Spacy after converting data to Spacy format.</li>
+					<li>Trained model using transformers trainer after converting data to BILOU format.</li>
+					<li>Created production ready code for inference and deployment.</li>
+				</ul>
+				<a href="https://github.com/sarang0909/custom_ner_api" class="icon brands style2 fa-github"></a>
+				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
 			</div>
 			<div class="video">
 				<video controls height="600">
@@ -70,18 +81,18 @@
 		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
 				<h2>Text Classification</h2>
-				<p> 1.Created production ready text classification pipeline using different methods. <br>
-					2.Used doccano to annotate news data to classify into POSITIVE,NEGATIVE,NEUTRAL<br>
-					3.Input vectors used : TF-IDF, word embeddings from distilbert,word embeddings from sentence
-					transformer.<br>
-					4.Model techniques used : Custom ML using sklearn,Custom Neural Network using keras,Custom
-					Neural Network using pytorch, Custom Neural Network using transformers trainer.<br>
-					5.Created production ready code for inference and deployment.<br>
-
-					<a href="https://github.com/sarang0909/text_classification_api"
-						class="icon brands style2 fa-github"></a>
-					<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
-				</p>
+				<ul>
+					<li>Created production ready text classification pipeline using different methods.</li>
+					<li>Used doccano to annotate news data to classify into POSITIVE,NEGATIVE,NEUTRAL</li>
+					<li>Input vectors used : TF-IDF, word embeddings from distilbert,word embeddings from sentence
+						transformer.</li>
+					<li>Model techniques used : Custom ML using sklearn,Custom Neural Network using keras,Custom
+						Neural Network using pytorch, Custom Neural Network using transformers trainer.</li>
+					<li>Created production ready code for inference and deployment.</li>
+				</ul>
+				<a href="https://github.com/sarang0909/text_classification_api"
+					class="icon brands style2 fa-github"></a>
+				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
 			</div>
 
 
@@ -98,16 +109,16 @@
 			id="first">
 			<div class="content">
 				<h2>Knowledge Graphs</h2>
-				<p> 1.Coreference Resolution using coreferee library <br>
-					2.Named Entity Recognition using custom NER model<br>
-					3.Entity Linking using wikidata api<br>
-					4.Relationship Extraction using rebel and stanford open ie libraries<br>
-					5.Knowledge Graph Creation using neo4j and networkx<br>
+				<ul>
+					<li>Coreference Resolution using coreferee library</li>
+					<li>Named Entity Recognition using custom NER model</li>
+					<li>Entity Linking using wikidata api</li>
+					<li>Relationship Extraction using rebel and stanford open ie libraries</li>
+					<li>Knowledge Graph Creation using neo4j and networkx</li>
+				</ul>
 
-					<a href="https://github.com/sarang0909/knowledge_graph_api"
-						class="icon brands style2 fa-github"></a>
-					<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
-				</p>
+				<a href="https://github.com/sarang0909/knowledge_graph_api" class="icon brands style2 fa-github"></a>
+				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
 			</div>
 			<div class="video">
 				<video controls height="600">
@@ -122,42 +133,61 @@
 
 
 		<div class="items style1 medium onscroll-fade-in">
-			<section>
-				<h3>NLP Text Cleaner</h3>
-				<p> 1.Utility module for text cleaning/pre processing required in NLP projects <br>
-					2.Published on PyPI<br>
-					<a href="https://github.com/sarang0909/nlp_text_cleaner" class="icon brands style2 fa-github"></a>
-				</p>
-			</section>
 
 			<section>
 				<h3>Code Template</h3>
-				<p>1. A code template for Machine Learning application development lifecycle<br>
-					2.It includes folder structure as well as some boilerplate code used for typical ML project<br>
-					<a href="https://github.com/sarang0909/Code_Template" class="icon brands style2 fa-github"></a>
-				</p>
+				<ul>
+					<li>A code template for Machine Learning application development lifecycle</li>
+					<li>It includes folder structure as well as some boilerplate code used for typical ML project</li>
+				</ul>
+				<a href="https://github.com/sarang0909/Code_Template" class="icon brands style2 fa-github"></a>
+				<a href="https://medium.com/@sarang0909.bds/ml-project-code-template-c45498b5e6d6"
+					class="icon brands style2 fa-medium"></a>
 			</section>
 
 			<section>
 				<h3>News API</h3>
-				<p>API to access news articles given a query to search for.<br>
-					<a href="https://github.com/sarang0909/news_api" class="icon brands style2 fa-github"></a>
-				</p>
+				<ul>
+					<li>API to access news articles given a query to search</li>
+				</ul>
+				<a href="https://github.com/sarang0909/news_api" class="icon brands style2 fa-github"></a>
+			</section>
+
+			<section>
+				<h3>NLP Text Cleaner</h3>
+
+				<ul>
+					<li>Utility module for text cleaning/pre processing required in NLP projects</li>
+					<li>Published on PyPI</li>
+				</ul>
+				<a href="https://github.com/sarang0909/nlp_text_cleaner" class="icon brands style2 fa-github"></a>
 			</section>
 
 			<section>
 				<h3>Audio Books</h3>
-				<p>A project to create audio book from book in any format(pdf,jpg etc.)<br>
-					<a href="https://github.com/sarang0909/audio_books" class="icon brands style2 fa-github"></a>
-				</p>
+				<ul>
+					<li>A project to create audio book from abook in any format(pdf,jpg etc.)</li>
+					<li>It helped NGO working for visually impaired children reduce book creation time from 1 month to
+						few
+						hours</li>
+					<li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6929739386729185280/">Featured
+							Post</a></li>
+				</ul>
+				<a href="https://github.com/sarang0909/audio_books" class="icon brands style2 fa-github"></a>
 			</section>
 
 
 			<section>
 				<h3>FAQ Chatbot</h3>
-				<p>COVID-19 FAQ chatbot in python along with user interfce<br>
-					<a href="https://github.com/sarang0909/FAQ-Chatbot" class="icon brands style2 fa-github"></a>
-				</p>
+
+				<ul>
+					<li>COVID-19 FAQ chatbot in python along with user interface</li>
+				</ul>
+
+				<a href="https://github.com/sarang0909/FAQ-Chatbot" class="icon brands style2 fa-github"></a>
+				<a href="https://medium.com/analytics-vidhya/faq-chatbot-with-ui-74ee032e4a1d"
+					class="icon brands style2 fa-medium"></a>
+
 			</section>
 
 		</div>
@@ -165,56 +195,298 @@
 
 
 
-	<section class="wrapper style1 align-center">
+	<section id="professional" class="wrapper style1 align-center">
 		<div class="inner">
 			<h2>Machine Learning - Professional(2017 - continue)</h2>
-			<p>I've open sourced my following projects on differetn topics from OCR, Image Processing, Machine
-				Learning Deep Learning, NLP etc.
+			<p>Following are some of the projects I did using NLP,Python while working in different oraganizations
+				mainly in Banking domain
 			</p>
 			<div class="items style1 medium onscroll-fade-in">
+
 				<section>
-					<span class="icon style2 major fa-gem"></span>
-					<h3>Custom Named Entity Recognition</h3>
-					<p> Using Spacy,transformers created</p>
+					<h3>Callreport Actions</h3>
+					<ul>
+						<li>Built a classification service to find actionable items from callreport</li>
+						<li>Built custom algorithm to find Product mentions in the callreport</li>
+						<li>Achieved 90% recall and helped user to track Minutes of Meeting</li>
+						<li>Responsible for all activities from requirement to deployment and monitoring</li>
+						<li>transformers,Spacy,nltk</li>
+					</ul>
 				</section>
+
+
 				<section>
-					<span class="icon solid style2 major fa-save"></span>
-					<h3>Text Classification</h3>
-					<p>Different methods</p>
+					<h3>Feedback Routing</h3>
+					<ul>
+						<li>Created a classification service to automate feedback routing process which saved around
+							$50k/year</li>
+						<li>Achieved 85% accuracy which helped to minimise manual intervention</li>
+						<li>Responsible for all activities from requirement to deployment in production</li>
+						<li>transformers,nltk</li>
+					</ul>
+
 				</section>
+				<!--
 				<section>
-					<span class="icon solid style2 major fa-save"></span>
-					<h3>Text Classification</h3>
-					<p>Different methods</p>
+					<h3>Document Search Service</h3>
+					<ul>
+						<li>Created a service to search FAQ,design documents regarding all applications,products in a
+							project</li>
+					</ul>
 				</section>
+
+-->
 				<section>
-					<span class="icon solid style2 major fa-save"></span>
-					<h3>Text Classification</h3>
-					<p>Different methods</p>
+					<h3>Task Rabbit</h3>
+					<ul>
+						<li>Built a inference pipeline for online marketplace</li>
+						<li>Explored AWS Sagemaker to move current Data Science work from local to cloud</li>
+						<li>Created ML guidelines and processes for the Data Science team</li>
+					</ul>
 				</section>
+
+
+
+				<section>
+					<h3>Text.ai</h3>
+					<ul>
+						<li>Created ensemble of regex,spacy NER and known entities dictionary to find the relevant
+							entities
+							in trade finance documents like LC,Bill of Trading,Sanctions etc</li>
+						<li>Created image processing pipeline to handle noisy images for better OCR output</li>
+						<li>Built a bounding box solution using OCR to get entities from W-2 forms and invoices.<br>
+							For key-value bases entities get the nearest word from key as value
+							For only value based entities,use predefined templates to determine its location</li>
+						<li>Python,Java,SQL,Regex,OCR(On prem,cloud),OpenCV,GATE,Spacy,NLTK</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>L2 Assistant Chatbot</h3>
+
+					<ul>
+						<li>A chatbot to assist L2 support team on frequently occurring issues on trade settlement
+							platform</li>
+						<li>Created dataset by parsing design docs,troubleshooting guides,JIRA</li>
+						<li>Used word2vec,text similarity techniques to find most related questions in the dataset
+						</li>
+						<li>Created user interface in flask</li>
+						<li>NLTK,Chatterbot,Flask,Gensim,JIRA APIs</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h3>Test Scripts Recommender</h3>
+					<ul>
+						<li>A recommender system to assist QA team in prioritizing test scripts</li>
+						<li>Created dataset by using GIT and JIRA APIs</li>
+						<li>Created ranking algorithm based on current release code check ins</li>
+						<li>This system helped QA team to reduce time by 30% to report the issues</li>
+						<li>Python,JIRA API,GIT API</li>
+					</ul>
+				</section>
+
+
+
+
+
 			</div>
 		</div>
 	</section>
 
 
-	<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-		id="first">
-		<div class="content">
+
+	<section class="wrapper style1 align-center">
+		<div class="inner">
 			<h2>Java Development - Professional(2011 - 2017)</h2>
-			<p>Java projects</p>
-			<ul class="actions stacked">
-				<li><a href="#" class="button">Learn More</a></li>
-			</ul>
-		</div>
-		<div class="image">
-			<img src="images/spotlight01.jpg" alt="" />
+			<p>Worked on multiple projects in Banking,PLM domain for 6 years<br>
+				Core Java,J2EE,Struts,Spring,SQL,Hibernate,Shell Script,JSP,HTML,CSS
+			</p>
 		</div>
 	</section>
 
 
-	I also write about my hobbies cooking and writing poems
+
+
+
+
+
+
+
+	<!-- Spotlight -->
+	<section id="skills"
+		class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+		<div class="content">
+			<header>
+				<h2>Skills</h2>
+			</header>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Moderate Usage</th>
+							<th>Extensive Usage</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Deep Learning/NLP</td>
+							<td></td>
+							<td>Text preprocessing,Data Annotation,Word Embeddings,Text Classification,Named Entity
+								Recognition </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td>Image Processing,OCR,Regular Expressions</td>
+						</tr>
+
+
+						<tr>
+							<td></td>
+							<td>Coreference resolution,entity linking,relationship extraction,knowledge graph</td>
+							<td></td>
+						<tr>
+							<td></td>
+							<td>Text Clustering,Topic Modeling</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Search,Chatbot,Dimensionality Reduction</td>
+							<td></td>
+						</tr>
+
+
+						<tr>
+							<td>Tools/Libraries</td>
+							<td></td>
+							<td>pytorch,transformers,spacy,NLTK </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td>pandas,numpy</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td>pytest,pylint,black</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td>opencv,regex</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>gensim,keras,tensorflow</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>neo4j,doccano,GATE</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>Deployment</td>
+							<td></td>
+							<td>flask,FastAPI </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>docker</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>circleci,jenkins</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>streamlit</td>
+							<td></td>
+						</tr>
+
+
+
+						<tr>
+							<td>Languages</td>
+							<td></td>
+							<td>python</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>java,SQL,shell script</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>javascript,html</td>
+							<td></td>
+						</tr>
+
+
+						<tr>
+							<td>Cloud</td>
+							<td>AWS S3,EC2,Sagemaker,Textract</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>GCP GCS,BigQuery,Vision API</td>
+							<td></td>
+						</tr>
+
+					</tbody>
+
+				</table>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+		<div class="content">
+			<h2>Certifications and Education</h2>
+			<ul>
+				<li>Google Cloud Certified Data Engineer - LinuxAcademy - March 2020</li>
+				<li>Natural Language Processing - Coursera - December 2018</li>
+				<li>Deep Learning Nanodegree - Udacity - August 2018</li>
+				<li>Vishwakarma Institute Of Technology(VIT),Pune,India-B.E in Computer Science|GPA 8.02|2007-11</li>
+			</ul>
+		</div>
+		<div class="image">
+			<img src="images/certificates.jpg" alt="" />
+		</div>
+	</section>
+
+
+
+	<section id="blog" class="wrapper style1 align-center">
+		<div class="inner">
+			<h2>Blogs</h2>
+			<p class="major">
+				Machine Learning <a href="https://medium.com/@sarang0909.bds" class="icon brands style2 fa-medium"></a>
+				Cooking <a href="https://www.blogger.com/blog/posts/6636363817806215904"
+					class="icon brands style2 fa-blogger"></a>
+				Poems <a href="https://www.blogger.com/blog/posts/7349655353498698917"
+					class="icon brands style2 fa-blogger"></a>
+
+			</p>
+	</section>
+
+
+
+
 	<!-- Footer -->
-	<footer class="wrapper style1 align-center">
+	<footer id="connect" class="wrapper style1 align-center">
 		<div class="inner">
 			<h2>Get in touch</h2>
 			<ul class="icons">
