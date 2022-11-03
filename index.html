@@ -11,9 +11,10 @@
 	</noscript>
 </head>
 
+
 <body class="is-preload">
 
-	<div class="topnav">
+	<div id="navbar">
 		<a class="active" href="#mlopen">Open Source</a>
 		<a href="#professional">Professional</a>
 		<a href="#skills">Skills</a>
@@ -26,6 +27,7 @@
 	<!-- Wrapper -->
 	<div id="wrapper" class="divided">
 
+
 		<!-- One -->
 		<section
 			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
@@ -34,7 +36,7 @@
 				<h1>Sarang Mete</h1>
 
 				<p class="major">Senior Natural Langauge Processing Engineer <br>
-					NLP Models|Inference Pipelines|Deployment <br>
+					NLP Models|Inference|Deployment <br>
 				</p>
 
 				<ul class="actions stacked">
@@ -198,13 +200,14 @@
 	<section id="professional" class="wrapper style1 align-center">
 		<div class="inner">
 			<h2>Machine Learning - Professional(2017 - continue)</h2>
-			<p>Following are some of the projects I did using NLP,Python while working in different oraganizations
+			<p class="major">Following are some of the projects I did using NLP,Python while working in different
+				oraganizations
 				mainly in Banking domain
 			</p>
 			<div class="items style1 medium onscroll-fade-in">
 
 				<section>
-					<h3>Callreport Actions</h3>
+					<h3>Call Report Actions</h3>
 					<ul>
 						<li>Built a classification service to find actionable items from callreport</li>
 						<li>Built custom algorithm to find Product mentions in the callreport</li>
@@ -309,11 +312,6 @@
 
 
 
-
-
-
-
-
 	<!-- Spotlight -->
 	<section id="skills"
 		class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
@@ -322,124 +320,51 @@
 				<h2>Skills</h2>
 			</header>
 			<div class="table-wrapper">
-				<table>
+				<table class="alt">
 					<thead>
 						<tr>
 							<th></th>
+							<th>Extensive Usage </th>
 							<th>Moderate Usage</th>
-							<th>Extensive Usage</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Deep Learning/NLP</td>
-							<td></td>
-							<td>Text preprocessing,Data Annotation,Word Embeddings,Text Classification,Named Entity
-								Recognition </td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>Image Processing,OCR,Regular Expressions</td>
-						</tr>
-
-
-						<tr>
-							<td></td>
-							<td>Coreference resolution,entity linking,relationship extraction,knowledge graph</td>
-							<td></td>
-						<tr>
-							<td></td>
-							<td>Text Clustering,Topic Modeling</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>Search,Chatbot,Dimensionality Reduction</td>
-							<td></td>
+							<td>NLP</td>
+							<td>Text preprocessing,Data Annotation,Word Embeddings,
+								Text Classification,Named Entity
+								Recognition,OCR,Regular Expressions,Image Processing </td>
+							<td>Coreference resolution,Entity linking,Relationship extraction,Knowledge graph,Text
+								clustering,Topic modeling,Search,Chatbot,Dimensionality Reduction </td>
 						</tr>
 
 
 						<tr>
 							<td>Tools/Libraries</td>
-							<td></td>
-							<td>pytorch,transformers,spacy,NLTK </td>
+							<td>pytorch,transformers,spacy,NLTK,pandas,numpy,pytest,
+								pylint,black,opencv,regex</td>
+							<td>gensim,keras,tensorflow,neo4j,doccano,GATE </td>
 						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>pandas,numpy</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>pytest,pylint,black</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>opencv,regex</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>gensim,keras,tensorflow</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>neo4j,doccano,GATE</td>
-							<td></td>
-						</tr>
+
 
 						<tr>
 							<td>Deployment</td>
-							<td></td>
-							<td>flask,FastAPI </td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>docker</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>circleci,jenkins</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>streamlit</td>
-							<td></td>
+							<td>flask,FastAPI</td>
+							<td>docker,circleci,jenkins,streamlit </td>
 						</tr>
 
 
 
 						<tr>
 							<td>Languages</td>
-							<td></td>
 							<td>python</td>
+							<td>java,SQL,shell script,javascript,html </td>
 						</tr>
-						<tr>
-							<td></td>
-							<td>java,SQL,shell script</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>javascript,html</td>
-							<td></td>
-						</tr>
-
 
 						<tr>
 							<td>Cloud</td>
-							<td>AWS S3,EC2,Sagemaker,Textract</td>
 							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>GCP GCS,BigQuery,Vision API</td>
-							<td></td>
+							<td>AWS S3,EC2,Sagemaker,Textract,GCP GCS,BigQuery,Vision API </td>
 						</tr>
 
 					</tbody>
@@ -514,6 +439,24 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+
+	<script>
+		window.onscroll = function () { myFunction() };
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+
+
 
 </body>
 
