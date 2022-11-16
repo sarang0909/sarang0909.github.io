@@ -15,7 +15,8 @@
 <body class="is-preload">
 
 	<div id="navbar">
-		<a class="active" href="#mlopen">Open Source</a>
+		<a class="active" href="#home">Home</a>
+		<a href="#mlopen">Open Source</a>
 		<a href="#professional">Professional</a>
 		<a href="#skills">Skills</a>
 		<a href="#blog">Blogs</a>
@@ -29,7 +30,7 @@
 
 
 		<!-- One -->
-		<section
+		<section id="home"
 			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 			<div class="content">
 				<img src="images/sarang_mete_photo_circle.png" alt="" width="150" height="150" />
@@ -52,25 +53,49 @@
 		<section id="mlopen" class="wrapper style1 align-center">
 			<div class="inner">
 				<h2>Machine Learning - Open Source(2017 - continue)</h2>
-				<p class="major">I've developed many open source projects on different topics like NLP,Deep
+				<p class="major">I've developed many open source projects on different topics like NLP,MLOps,Deep
 					Learning,Machine
 					Learning,OCR,Image Processing etc.
 				</p>
 		</section>
+
 		<!-- Spotlight -->
 		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 			id="first">
 			<div class="content">
+				<h2>Almost All NLP Application</h2>
+				<ul>
+					<li>Assembled almost all NLP concepts in a single use case.</li>
+					<li>Created an application where user can search for entity(user query) in news articles(knowledge
+						base)</li>
+					<li>Performed sentiment analysis, topic modeling, custom NER, knowledge graph on fetched article
+					</li>
+					<li>Used best practices in MLOps to develop project. </li>
+				</ul>
+				<a href="https://github.com/sarang0909/all_nlp_app" class="icon brands style2 fa-github"></a>
+				<a href="https://medium.com/@sarang0909.bds/almost-all-nlp-application-162572d543d0"
+					class="icon brands style2 fa-medium"></a>
+			</div>
+			<div class="video">
+				<video controls height="600">
+					<source src="media/streamlit_video_all_nlp_app.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+
+		<!-- Spotlight -->
+		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+			<div class="content">
 				<h2>Custom Named Entity Recognition</h2>
 				<ul>
-					<li>Created production ready custom NER pipeline using different methods.</li>
 					<li>Used doccano to annotate news data.</li>
 					<li>Trained model using Spacy after converting data to Spacy format.</li>
 					<li>Trained model using transformers trainer after converting data to BILOU format.</li>
 					<li>Created production ready code for inference and deployment.</li>
 				</ul>
 				<a href="https://github.com/sarang0909/custom_ner_api" class="icon brands style2 fa-github"></a>
-				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
+				<a href="https://medium.com/@sarang0909.bds/nlp-custom-named-entity-recognition-b83e4ceaac9b"
+					class="icon brands style2 fa-medium"></a>
 			</div>
 			<div class="video">
 				<video controls height="600">
@@ -80,7 +105,8 @@
 		</section>
 
 		<!-- Spotlight -->
-		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+			id="first">
 			<div class="content">
 				<h2>Text Classification</h2>
 				<ul>
@@ -90,11 +116,11 @@
 						transformer.</li>
 					<li>Model techniques used : Custom ML using sklearn,Custom Neural Network using keras,Custom
 						Neural Network using pytorch, Custom Neural Network using transformers trainer.</li>
-					<li>Created production ready code for inference and deployment.</li>
 				</ul>
 				<a href="https://github.com/sarang0909/text_classification_api"
 					class="icon brands style2 fa-github"></a>
-				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
+				<a href="https://medium.com/@sarang0909.bds/nlp-text-classification-11c64cf169b6"
+					class="icon brands style2 fa-medium"></a>
 			</div>
 
 
@@ -107,8 +133,7 @@
 
 
 		<!-- Spotlight -->
-		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-			id="first">
+		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
 				<h2>Knowledge Graphs</h2>
 				<ul>
@@ -120,7 +145,8 @@
 				</ul>
 
 				<a href="https://github.com/sarang0909/knowledge_graph_api" class="icon brands style2 fa-github"></a>
-				<a href="https://github.com/sarang0909?tab=repositories" class="icon brands style2 fa-medium"></a>
+				<a href="https://medium.com/@sarang0909.bds/nlp-knowledge-graph-e6e82ebef98d"
+					class="icon brands style2 fa-medium"></a>
 			</div>
 			<div class="video">
 				<video controls height="600">
@@ -128,6 +154,28 @@
 				</video>
 			</div>
 		</section>
+
+		<!-- Spotlight -->
+		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+			id="first">
+			<div class="content">
+				<h2>Semantic Search Engine</h2>
+				<ul>
+					<li>Used elasticssearch to get relevant news article given input query</li>
+					<li>Applied sentence transformer embedding and cosine similarity</li>
+				</ul>
+
+				<a href="https://github.com/sarang0909/semantic_search_api" class="icon brands style2 fa-github"></a>
+				<a href="https://medium.com/@sarang0909.bds/semantic-search-using-elasticsearch-and-embeddings-efe68a9d60f"
+					class="icon brands style2 fa-medium"></a>
+			</div>
+			<div class="video">
+				<video controls height="600">
+					<source src="media/streamlit_video_semantic_search.webm" type="video/webm">
+				</video>
+			</div>
+		</section>
+
 
 
 
@@ -153,6 +201,8 @@
 					<li>API to access news articles given a query to search</li>
 				</ul>
 				<a href="https://github.com/sarang0909/news_api" class="icon brands style2 fa-github"></a>
+				<a href="https://medium.com/@sarang0909.bds/news-data-collection-for-nlp-a32a76cd36b2"
+					class="icon brands style2 fa-medium"></a>
 			</section>
 
 			<section>
